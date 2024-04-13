@@ -3,7 +3,7 @@ import pandas as pd
 import random
 
 # Load data
-data = pd.read_csv('https://github.com/BianchiGiulia/hackaton_FemaleCoders/blob/main/clean_data2.csv')
+data = pd.read_csv('clean_data2.csv')
 
 # Initialize session state variables if not already present
 if 'selected_cuisine' not in st.session_state:
