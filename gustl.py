@@ -72,7 +72,7 @@ def handle_conversation():
                 st.write(f"No restaurants found for '{st.session_state['selected_cuisine']}' with prices '{', '.join(st.session_state['selected_prices'])}' in ZIP '{st.session_state['selected_zip']}'. Try another filter.")
 
 def main():
-    st.title('GourmetGustl')
+    st.title('🍔🍟🍕 GourmetGustl 🌮🍱🍛')
     if 'init' not in st.session_state:
         st.session_state['init'] = True
         st.write("Servus! I'm here to help you find a place to eat in Vienna, oida!")
