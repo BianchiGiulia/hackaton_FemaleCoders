@@ -75,7 +75,7 @@ def main():
     st.title('GourmetGustl')
     if 'init' not in st.session_state:
         st.session_state['init'] = True
-        st.write("Hello! I'm here to help you find a place to eat in Vienna, oida!")
+        st.write("Servus! I'm here to help you find a place to eat in Vienna, oida!")
 
     handle_conversation()
 
